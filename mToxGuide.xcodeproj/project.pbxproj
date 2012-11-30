@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D33BF411D2FDCC007386AA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 00D33BF311D2FDCC007386AA /* Default.png */; };
+		1D3623260D0F684500981E51 /* mobiletoxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* mobiletoxAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		373035F411CA94BD0013D16E /* SubstanceDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 373035F311CA94BD0013D16E /* SubstanceDetailController.m */; };
+		373035F611CA96260013D16E /* SubstanceDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 373035F511CA96260013D16E /* SubstanceDetailView.xib */; };
+		375594D111C1121700B8A8C9 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375594D011C1121700B8A8C9 /* HelpViewController.m */; };
+		375594D311C1123600B8A8C9 /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375594D211C1123600B8A8C9 /* HelpView.xib */; };
+		375594D711C1136D00B8A8C9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375594D611C1136D00B8A8C9 /* AboutViewController.m */; };
+		375594D911C1138700B8A8C9 /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375594D811C1138700B8A8C9 /* AboutView.xib */; };
+		375594F211C11A1700B8A8C9 /* SubstanceNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375594F111C11A1700B8A8C9 /* SubstanceNavController.m */; };
+		375594F511C11AA100B8A8C9 /* SubstanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375594F411C11AA100B8A8C9 /* SubstanceViewController.m */; };
+		375594F711C11AC900B8A8C9 /* SubstanceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 375594F611C11AC900B8A8C9 /* SubstanceView.xib */; };
+		375753C311D1097B00D8582C /* DataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 375753C211D1097B00D8582C /* DataController.m */; };
+		375753C611D10ADE00D8582C /* toxstrings.txt in Resources */ = {isa = PBXBuildFile; fileRef = 375753C511D10ADE00D8582C /* toxstrings.txt */; };
+		37898CFD11CBCDDE00A481F4 /* SubtanceSectionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37898CFC11CBCDDE00A481F4 /* SubtanceSectionsView.xib */; };
+		37898D0311CBCE3100A481F4 /* SubstanceSectionsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37898D0211CBCE3100A481F4 /* SubstanceSectionsController.m */; };
+		37898D0911CBCF9900A481F4 /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 37898D0811CBCF9900A481F4 /* help.png */; };
+		37898D0B11CBCFB000A481F4 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = 37898D0A11CBCFB000A481F4 /* about.png */; };
+		37898D0D11CBCFBA00A481F4 /* substances.png in Resources */ = {isa = PBXBuildFile; fileRef = 37898D0C11CBCFBA00A481F4 /* substances.png */; };
+		37B4255311D014E600336AB9 /* ToxDocSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4255211D014E600336AB9 /* ToxDocSection.m */; };
+		37B4256911D01A2500336AB9 /* ToxDoc.m in Sources */ = {isa = PBXBuildFile; fileRef = 37B4256811D01A2500336AB9 /* ToxDoc.m */; };
+		37B5FD0B11D272AF0024DD20 /* 91-beaker2.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B5FD0A11D272AF0024DD20 /* 91-beaker2.png */; };
+		37B5FD0E11D2735A0024DD20 /* 79-medical-bag.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B5FD0C11D2735A0024DD20 /* 79-medical-bag.png */; };
+		37B5FD0F11D2735A0024DD20 /* 112-group.png in Resources */ = {isa = PBXBuildFile; fileRef = 37B5FD0D11D2735A0024DD20 /* 112-group.png */; };
+		A64FD1A215783DD200919E31 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = A64FD19E15783DD200919E31 /* Icon-Small.png */; };
+		A64FD1A315783DD200919E31 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A64FD19F15783DD200919E31 /* Icon-Small@2x.png */; };
+		A64FD1A415783DD200919E31 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = A64FD1A015783DD200919E31 /* iTunesArtwork */; };
+		A64FD1A515783DD200919E31 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = A64FD1A115783DD200919E31 /* iTunesArtwork@2x */; };
+		A650CC7E15652449008AA96C /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = A650CC7C15652448008AA96C /* LICENSE.txt */; };
+		A650CC7F15652449008AA96C /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A650CC7D15652449008AA96C /* README.txt */; };
+		A693604515700B9A00417604 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A693604315700B9A00417604 /* Icon.png */; };
+		A693604615700B9A00417604 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A693604415700B9A00417604 /* Icon@2x.png */; };
+		A6D782F215785B340035CC79 /* EulaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D782F015785B340035CC79 /* EulaViewController.m */; };
+		A6D782F315785B340035CC79 /* EulaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A6D782F115785B340035CC79 /* EulaViewController.xib */; };
+		A6D782F715785C770035CC79 /* disclaimer_iphone_apps.html in Resources */ = {isa = PBXBuildFile; fileRef = A6D782F415785C770035CC79 /* disclaimer_iphone_apps.html */; };
+		A6D782F815785C770035CC79 /* disclaimer_iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D782F515785C770035CC79 /* disclaimer_iphone.png */; };
+		A6D782F915785C770035CC79 /* disclaimer_iphone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6D782F615785C770035CC79 /* disclaimer_iphone@2x.png */; };
+		A6D782FD15785DAB0035CC79 /* AppManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A6D782FC15785DAB0035CC79 /* AppManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00D33BF311D2FDCC007386AA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* mobiletoxAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mobiletoxAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* mobiletoxAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mobiletoxAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* mToxGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mToxGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* mToxGuide_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mToxGuide_Prefix.pch; sourceTree = "<group>"; };
+		373035F211CA94BD0013D16E /* SubstanceDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstanceDetailController.h; sourceTree = "<group>"; };
+		373035F311CA94BD0013D16E /* SubstanceDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubstanceDetailController.m; sourceTree = "<group>"; };
+		373035F511CA96260013D16E /* SubstanceDetailView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubstanceDetailView.xib; sourceTree = "<group>"; };
+		375594CF11C1121700B8A8C9 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = ../HelpViewController.h; sourceTree = "<group>"; };
+		375594D011C1121700B8A8C9 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = ../HelpViewController.m; sourceTree = "<group>"; };
+		375594D211C1123600B8A8C9 /* HelpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HelpView.xib; sourceTree = "<group>"; };
+		375594D511C1136D00B8A8C9 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = ../AboutViewController.h; sourceTree = "<group>"; };
+		375594D611C1136D00B8A8C9 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = ../AboutViewController.m; sourceTree = "<group>"; };
+		375594D811C1138700B8A8C9 /* AboutView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		375594F011C11A1700B8A8C9 /* SubstanceNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstanceNavController.h; sourceTree = "<group>"; };
+		375594F111C11A1700B8A8C9 /* SubstanceNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubstanceNavController.m; sourceTree = "<group>"; };
+		375594F311C11AA100B8A8C9 /* SubstanceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstanceViewController.h; sourceTree = "<group>"; };
+		375594F411C11AA100B8A8C9 /* SubstanceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubstanceViewController.m; sourceTree = "<group>"; };
+		375594F611C11AC900B8A8C9 /* SubstanceView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubstanceView.xib; sourceTree = "<group>"; };
+		375753C111D1097B00D8582C /* DataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataController.h; sourceTree = "<group>"; };
+		375753C211D1097B00D8582C /* DataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataController.m; sourceTree = "<group>"; wrapsLines = 1; };
+		375753C511D10ADE00D8582C /* toxstrings.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = toxstrings.txt; sourceTree = "<group>"; wrapsLines = 1; };
+		37898CFC11CBCDDE00A481F4 /* SubtanceSectionsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SubtanceSectionsView.xib; sourceTree = "<group>"; };
+		37898D0111CBCE3100A481F4 /* SubstanceSectionsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubstanceSectionsController.h; sourceTree = "<group>"; };
+		37898D0211CBCE3100A481F4 /* SubstanceSectionsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubstanceSectionsController.m; sourceTree = "<group>"; };
+		37898D0811CBCF9900A481F4 /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help.png; sourceTree = "<group>"; };
+		37898D0A11CBCFB000A481F4 /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		37898D0C11CBCFBA00A481F4 /* substances.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = substances.png; sourceTree = "<group>"; };
+		37B4255111D014E600336AB9 /* ToxDocSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToxDocSection.h; sourceTree = "<group>"; };
+		37B4255211D014E600336AB9 /* ToxDocSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToxDocSection.m; sourceTree = "<group>"; };
+		37B4256711D01A2500336AB9 /* ToxDoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToxDoc.h; sourceTree = "<group>"; };
+		37B4256811D01A2500336AB9 /* ToxDoc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToxDoc.m; sourceTree = "<group>"; };
+		37B5FD0A11D272AF0024DD20 /* 91-beaker2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "91-beaker2.png"; sourceTree = "<group>"; };
+		37B5FD0C11D2735A0024DD20 /* 79-medical-bag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "79-medical-bag.png"; sourceTree = "<group>"; };
+		37B5FD0D11D2735A0024DD20 /* 112-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "112-group.png"; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* mToxGuide-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "mToxGuide-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		A64FD19E15783DD200919E31 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		A64FD19F15783DD200919E31 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		A64FD1A015783DD200919E31 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		A64FD1A115783DD200919E31 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
+		A650CC7C15652448008AA96C /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		A650CC7D15652449008AA96C /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		A693604315700B9A00417604 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A693604415700B9A00417604 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		A6D782EF15785B340035CC79 /* EulaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EulaViewController.h; sourceTree = "<group>"; };
+		A6D782F015785B340035CC79 /* EulaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EulaViewController.m; sourceTree = "<group>"; };
+		A6D782F115785B340035CC79 /* EulaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EulaViewController.xib; sourceTree = "<group>"; };
+		A6D782F415785C770035CC79 /* disclaimer_iphone_apps.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = disclaimer_iphone_apps.html; sourceTree = "<group>"; };
+		A6D782F515785C770035CC79 /* disclaimer_iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = disclaimer_iphone.png; sourceTree = "<group>"; };
+		A6D782F615785C770035CC79 /* disclaimer_iphone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "disclaimer_iphone@2x.png"; sourceTree = "<group>"; };
+		A6D782FA15785D620035CC79 /* ModalViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewDelegate.h; sourceTree = "<group>"; };
+		A6D782FB15785DAA0035CC79 /* AppManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppManager.h; sourceTree = "<group>"; };
+		A6D782FC15785DAB0035CC79 /* AppManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppManager.m; sourceTree = "<group>"; };
+		A6D782FE15785E490035CC79 /* Debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Debug.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A6D782FE15785E490035CC79 /* Debug.h */,
+				A6D782FB15785DAA0035CC79 /* AppManager.h */,
+				A6D782FC15785DAB0035CC79 /* AppManager.m */,
+				A6D782FA15785D620035CC79 /* ModalViewDelegate.h */,
+				A6D782F415785C770035CC79 /* disclaimer_iphone_apps.html */,
+				A6D782F515785C770035CC79 /* disclaimer_iphone.png */,
+				A6D782F615785C770035CC79 /* disclaimer_iphone@2x.png */,
+				A6D782EF15785B340035CC79 /* EulaViewController.h */,
+				A6D782F015785B340035CC79 /* EulaViewController.m */,
+				A6D782F115785B340035CC79 /* EulaViewController.xib */,
+				375753C111D1097B00D8582C /* DataController.h */,
+				375753C211D1097B00D8582C /* DataController.m */,
+				375594CF11C1121700B8A8C9 /* HelpViewController.h */,
+				375594D011C1121700B8A8C9 /* HelpViewController.m */,
+				375594D511C1136D00B8A8C9 /* AboutViewController.h */,
+				375594D611C1136D00B8A8C9 /* AboutViewController.m */,
+				1D3623240D0F684500981E51 /* mobiletoxAppDelegate.h */,
+				1D3623250D0F684500981E51 /* mobiletoxAppDelegate.m */,
+				375594F011C11A1700B8A8C9 /* SubstanceNavController.h */,
+				375594F111C11A1700B8A8C9 /* SubstanceNavController.m */,
+				375594F311C11AA100B8A8C9 /* SubstanceViewController.h */,
+				375594F411C11AA100B8A8C9 /* SubstanceViewController.m */,
+				373035F211CA94BD0013D16E /* SubstanceDetailController.h */,
+				373035F311CA94BD0013D16E /* SubstanceDetailController.m */,
+				37898D0111CBCE3100A481F4 /* SubstanceSectionsController.h */,
+				37898D0211CBCE3100A481F4 /* SubstanceSectionsController.m */,
+				37B4255111D014E600336AB9 /* ToxDocSection.h */,
+				37B4255211D014E600336AB9 /* ToxDocSection.m */,
+				37B4256711D01A2500336AB9 /* ToxDoc.h */,
+				37B4256811D01A2500336AB9 /* ToxDoc.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* mToxGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				A650CC7C15652448008AA96C /* LICENSE.txt */,
+				A650CC7D15652449008AA96C /* README.txt */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* mToxGuide_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				375753C511D10ADE00D8582C /* toxstrings.txt */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A64FD19E15783DD200919E31 /* Icon-Small.png */,
+				A64FD19F15783DD200919E31 /* Icon-Small@2x.png */,
+				A64FD1A015783DD200919E31 /* iTunesArtwork */,
+				A64FD1A115783DD200919E31 /* iTunesArtwork@2x */,
+				A693604315700B9A00417604 /* Icon.png */,
+				A693604415700B9A00417604 /* Icon@2x.png */,
+				00D33BF311D2FDCC007386AA /* Default.png */,
+				37B5FD0C11D2735A0024DD20 /* 79-medical-bag.png */,
+				37B5FD0D11D2735A0024DD20 /* 112-group.png */,
+				37B5FD0A11D272AF0024DD20 /* 91-beaker2.png */,
+				37898D0C11CBCFBA00A481F4 /* substances.png */,
+				37898D0A11CBCFB000A481F4 /* about.png */,
+				37898D0811CBCF9900A481F4 /* help.png */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* mToxGuide-Info.plist */,
+				375594D211C1123600B8A8C9 /* HelpView.xib */,
+				375594D811C1138700B8A8C9 /* AboutView.xib */,
+				375594F611C11AC900B8A8C9 /* SubstanceView.xib */,
+				373035F511CA96260013D16E /* SubstanceDetailView.xib */,
+				37898CFC11CBCDDE00A481F4 /* SubtanceSectionsView.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* mToxGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "mToxGuide" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mToxGuide;
+			productName = mobiletox;
+			productReference = 1D6058910D05DD3D006BFB54 /* mToxGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "mToxGuide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* mToxGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				375594D311C1123600B8A8C9 /* HelpView.xib in Resources */,
+				375594D911C1138700B8A8C9 /* AboutView.xib in Resources */,
+				375594F711C11AC900B8A8C9 /* SubstanceView.xib in Resources */,
+				373035F611CA96260013D16E /* SubstanceDetailView.xib in Resources */,
+				37898CFD11CBCDDE00A481F4 /* SubtanceSectionsView.xib in Resources */,
+				37898D0911CBCF9900A481F4 /* help.png in Resources */,
+				37898D0B11CBCFB000A481F4 /* about.png in Resources */,
+				37898D0D11CBCFBA00A481F4 /* substances.png in Resources */,
+				375753C611D10ADE00D8582C /* toxstrings.txt in Resources */,
+				37B5FD0B11D272AF0024DD20 /* 91-beaker2.png in Resources */,
+				37B5FD0E11D2735A0024DD20 /* 79-medical-bag.png in Resources */,
+				37B5FD0F11D2735A0024DD20 /* 112-group.png in Resources */,
+				00D33BF411D2FDCC007386AA /* Default.png in Resources */,
+				A650CC7E15652449008AA96C /* LICENSE.txt in Resources */,
+				A650CC7F15652449008AA96C /* README.txt in Resources */,
+				A693604515700B9A00417604 /* Icon.png in Resources */,
+				A693604615700B9A00417604 /* Icon@2x.png in Resources */,
+				A64FD1A215783DD200919E31 /* Icon-Small.png in Resources */,
+				A64FD1A315783DD200919E31 /* Icon-Small@2x.png in Resources */,
+				A64FD1A415783DD200919E31 /* iTunesArtwork in Resources */,
+				A64FD1A515783DD200919E31 /* iTunesArtwork@2x in Resources */,
+				A6D782F315785B340035CC79 /* EulaViewController.xib in Resources */,
+				A6D782F715785C770035CC79 /* disclaimer_iphone_apps.html in Resources */,
+				A6D782F815785C770035CC79 /* disclaimer_iphone.png in Resources */,
+				A6D782F915785C770035CC79 /* disclaimer_iphone@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* mobiletoxAppDelegate.m in Sources */,
+				375594D111C1121700B8A8C9 /* HelpViewController.m in Sources */,
+				375594D711C1136D00B8A8C9 /* AboutViewController.m in Sources */,
+				375594F211C11A1700B8A8C9 /* SubstanceNavController.m in Sources */,
+				375594F511C11AA100B8A8C9 /* SubstanceViewController.m in Sources */,
+				373035F411CA94BD0013D16E /* SubstanceDetailController.m in Sources */,
+				37898D0311CBCE3100A481F4 /* SubstanceSectionsController.m in Sources */,
+				37B4255311D014E600336AB9 /* ToxDocSection.m in Sources */,
+				37B4256911D01A2500336AB9 /* ToxDoc.m in Sources */,
+				375753C311D1097B00D8582C /* DataController.m in Sources */,
+				A6D782F215785B340035CC79 /* EulaViewController.m in Sources */,
+				A6D782FD15785DAB0035CC79 /* AppManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Greg Ledbetter (D5LF2BQKBD)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mToxGuide_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "mToxGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = mToxGuide;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DC3B1677-19F6-41D3-B15F-01B4BACC34D8";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Centers for Disease Control";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = mToxGuide_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "mToxGuide-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = mToxGuide;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56D0A03D-F54D-4131-811B-99CF5B1DEF1F";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Greg Ledbetter (D5LF2BQKBD)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = mToxGuide;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "DC3B1677-19F6-41D3-B15F-01B4BACC34D8";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Centers for Disease Control";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "56D0A03D-F54D-4131-811B-99CF5B1DEF1F";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "mToxGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "mToxGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

@@ -1,0 +1,98 @@
+- (void)createDemoData {
+    
+    /*
+     Create an array containing some demonstration data.
+     */
+    
+    NSMutableArray *substanceList = [[NSMutableArray alloc] init];
+    ToxDoc *toxDoc;
+    
+	toxicSubstance = [[ToxicSubstance alloc] init];
+	toxicSubstance.name = @"Aluminum";
+	toxicSubstance.exposureSources = @"General Populations"
+										"\n\u2022 Aluminum is ubiquitous in the environment. For the general population, exposure to aluminum most likely occurs through the consumption of food, water, and aluminum containing medicinals, such as antacids, buffered analgesics, antidiarrheal agents, or antiulcerative medication."
+										"\n\u2022 Inhalation exposure and dermal contact may also contribute a small amount to an individual’s daily aluminum exposure."
+										"\n\nOccupational Populations"
+										"\n\u2022 Potential for exposure during the refining of the primary metal and in secondary industries that fabricate aluminum products (such as aircraft, automotive, and metal products) and aluminum welding.";
+	toxicSubstance.toxicokinetics = @"Toxicokinetics"
+									"\n\u2022 Aluminum is poorly absorbed following either oral or inhalation exposure and is essentially not absorbed dermally. Approximately 1.5-2 of inhaled and 0.01- 5% of ingested aluminum is absorbed. The absorption efficiency is dependent on chemical form, particle size (inhalation), and concurrent dietary exposure to chelators such as citric acid or lactic acid (oral)."
+									"\n\u2022 Aluminum binds to various ligands in the blood and distributes to every organ, with highest concentrations ultimately found in bone and lung tissues."
+									"\n\u2022 Absorbed aluminum is excreted principally in the urine and, to a lesser extent, in the bile."
+									"\n\nNormal Human Levels"
+									"\n\u2022 The total body burden of aluminum in healthy individuals is 30 to 50 mg."
+									"\n\u2022 Approximately 50% of the body burden is in the skeleton and 25% is in the lungs."
+									"\n\u2022 Aluminum levels in lungs increase with age."
+									"\n\u2022 Aluminum levels in bone tissue of healthy individuals range from 5 to 10 mg/kg."
+									"\n\u2022 Serum levels in healthy individuals rand from 1-3 μg/L.";
+	toxicSubstance.biomarkers = @"Biomarkers"
+	"\n\u2022 Aluminum can be measured in the blood, bone, urine, and feces. There are insufficient data to relate aluminum exposure levels with blood or urine levels."
+	"\n\u2022 No biochemical or histological changes specific for aluminum exposure were identified."
+	"\n\nEnvironmental Levels"
+		"\n\t\tAir"
+		"\n\u2022 Average range: 0.005 to 0.18 μg/m3."
+		"\n\u2022 0.4 to 8.0 μg/m3 in urban and industrial areas."
+		"\n\t\tSediment and Soil"
+		"\n\u2022 Concentration in soil varies widely ranging from 7 to over 100 g/kg."
+		"\n\t\tWater"
+		"\n\u2022 Generally below 0.1 mg/L in surface water."
+		"\n\nReference"
+		"\n\u2022 Agency for Toxic Substances and Disease Registry (ATSDR). 2006. Toxicological Profile for Aluminum (Draft for Public Comment). Atlanta, GA: U.S. Department of Health and Human Services, Public Health Services.";
+		
+	
+	toxicSubstance.chemicalInfo = @"Aluminum is a metal"
+	"\n\u2022 Aluminum is a silvery-white metal. In nature it is found in most rocks, particularly igneous rocks as aluminosilicate minerals."
+	"\n\u2022 Because of its high reactivity, aluminum does not exist as the metal in the environment; it exists in a combined state with other elements."
+	"\n\u2022 Aluminum metal is used to make beverage cans, pots and pans, automotive components, siding and roofing, and foil."
+	"\n\u2022 Aluminum compounds are used in water treatment, abrasives, and furnace linings. Powdered aluminum metal is used in explosives and fireworks."
+	"\n\u2022 Aluminum compounds are found in consumer products such as foil and antiperspirants, over the counter and prescription drugs such as antacids, buffered aspirin, and antiulceratives, and in food additives.";
+	
+	
+	
+	
+	toxicSubstance.exposureRoutes = @"Inhalation – generally limited to occupational exposure."
+	"\n\u2022 Oral – primary route of exposure for the general population. Aluminum is found in food, drinking water, and medicinal products such as antacids and buffered aspirin."
+	"\n\u2022 Dermal (skin) contact—minor route of exposure; aluminum is found in some topically applied consumer products such as antiperspirants, first aid antibiotics, and sunscreen and suntan products."
+	"\n\nAluminum in the Environment"
+	"\n\u2022 Aluminum is the most abundant metal in the earth’s crust."
+	"\n\u2022 High levels in the environment can be part of the natural deposits in the earth or caused by the mining and processing of its ores and by production of aluminum metal, alloys, and compounds."
+	"\n\u2022 Aluminum cannot be destroyed in the environment. It can only change its form or become attached to or separated from particles."
+	"\n\u2022 Aluminum is only sparingly soluble in water between pH 6 and 8; thus aluminum concentration in most natural waters is extremely low."
+	"\n\u2022 Aluminum is not bioaccumulated to a significant extent.";
+	
+	
+	
+	
+	
+	toxicSubstance.healthEffects = @"Minimal Risk Levels (MRLs)"
+	"\n\t\tInhalation"
+	"\n\u2022 No acute-, intermediate-, or chronic- duration inhalation MRLs were derived for aluminum"
+	"\n\t\tOral"
+	"\n\u2022 An acute-duration oral MRL was not derived for aluminum."
+	"\n\u2022 An MRL of 1 mg aluminum/kg/day has been derived for intermediate-duration oral exposure (15-364 days)."
+		"\n\u2022 An MRL of 1 mg aluminum/kg/day has been derived for chronic-duration oral exposure (␣365 days)."
+	"\n\nHealth Effects"
+	"\n\u2022 The most sensitive target of aluminum toxicity is the nervous system. Impaired performance on neurobehavioral tests of motor function, sensory function, and cognitive function have been observed in animals. Neurobehavioral alterations have been observed following exposure of adult or weanling animals and in animals exposed during gestation and/or lactation."
+	"\n\u2022 Respiratory effects, such as impaired lung function and fibrosis have been observed in aluminum workers."
+	"\n\nChildren’s Health"
+	"\n\u2022 Children who are exposed to high levels of aluminum exhibit symptoms similar to those seen in adults, including neurological effects and skeletal effects."
+	"\n\u2022 We do not know if children are more susceptible than adults to aluminum toxicity.";	
+	
+	[substanceList addObject:toxicSubstance];
+    [toxicSubstance release];
+    
+    
+	toxicSubstance = [[ToxicSubstance alloc] init];
+	toxicSubstance.name = @"Benzene";
+	toxicSubstance.exposureSources = @"Benzene src of exposure";
+	toxicSubstance.toxicokinetics = @"Benzene toxicokinetics";
+	toxicSubstance.biomarkers = @"Benzene biomarkers";
+	toxicSubstance.chemicalInfo = @"Benzene chemical info";
+	toxicSubstance.exposureRoutes = @"Benzene routes of exposure";
+	toxicSubstance.healthEffects = @"Benzene health effects";
+	[substanceList addObject:toxicSubstance];
+    [toxicSubstance release];
+    
+    self.list = substanceList;
+    [substanceList release];
+}
+
